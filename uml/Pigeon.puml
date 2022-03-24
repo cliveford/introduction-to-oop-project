@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Bird <|-- Pigeon
+
+class Bird {
+#name: string
+#color: string
++speak(): void
++fly(): void
+}
+
+class Pigeon {
++eatPizza(): void
+}
+
+@enduml
