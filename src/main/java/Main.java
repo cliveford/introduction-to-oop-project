@@ -5,7 +5,6 @@ public class Main {
         pippa.speak();
         pippa.fly();
         pippa.eatPizza();
-        pippa.sleep();
 
     }
 }
