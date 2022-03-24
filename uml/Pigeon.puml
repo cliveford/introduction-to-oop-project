@@ -3,7 +3,7 @@
 
 Bird <|-- Pigeon
 
-class Bird {
+abstract class Bird {
 #name: string
 #color: string
 +speak(): void
