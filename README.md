@@ -24,5 +24,5 @@ navigate to /introduction-to-oop-project/src/main/java in a terminal window
 enter javac Main.java
 enter java Main
 
-Alternatively you can download the latest release from -
+Alternatively you can download the latest version from -
 https://github.com/cliveford/introduction-to-oop-project/tags
