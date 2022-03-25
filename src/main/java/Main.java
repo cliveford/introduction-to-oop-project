@@ -6,5 +6,9 @@ public class Main {
         pippa.fly();
         pippa.eatPizza();
 
+        Penguin pingu = new Penguin("Pingu", "Black & White");
+        pingu.speak();
+        pingu.fly();
+
     }
 }
