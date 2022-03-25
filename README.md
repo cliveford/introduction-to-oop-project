@@ -13,3 +13,16 @@ Goals of activity:
 - Understand that classes can implement multiple interfaces.
 - Create an Interface and implement it in a class.
 
+--------------------------------
+Technologies used - IntelliJ IDEA(community edition), Java(17.0.2), Maven(3.8.4), plantUML integration plugin
+--------------------------------
+To run this application -
+
+fork and clone this repo
+open in your chosen IDE
+navigate to /introduction-to-oop-project/src/main/java in a terminal window
+enter javac Main.java
+enter java Main
+
+Alternatively you can download the latest release from -
+https://github.com/cliveford/introduction-to-oop-project/tags
