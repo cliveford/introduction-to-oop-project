@@ -1,14 +1,29 @@
 @startuml
 'https://plantuml.com/class-diagram
 
+interface Dance
+
+Dance <|.. Bird
+
 Bird <|-- Pigeon
 Bird <|-- Penguin
+Bird <|-- Parrot
+
+interface Dance {
++spin(): void
++doTheCaterpillar(): void
++jump(): void
+}
 
 abstract class Bird {
 #name: string
 #color: string
 {abstract}+speak(): void
 +fly(): void
+}
+
+class Parrot {
++speak(): void
 }
 
 class Pigeon {
