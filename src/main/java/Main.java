@@ -10,5 +10,9 @@ public class Main {
         pingu.speak();
         pingu.fly();
 
+        Parrot polly = new Parrot("Polly", "Red, Yellow & Blue");
+        polly.speak();
+        polly.fly();
+
     }
 }
